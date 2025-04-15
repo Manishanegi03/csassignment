@@ -5,7 +5,6 @@ class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a sentence");
         String s = sc.nextLine();
-        s = s.trim();
         s = s + " ";
         int i=0,v=0,w=0;
         for(i=0;i<s.length();i++)
