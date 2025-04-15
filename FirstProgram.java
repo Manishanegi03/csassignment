@@ -34,10 +34,10 @@ System.out.println(s1.compareto(s2));
 System.out.println(" Character at index 4 : " +s1.charAt(4));
 
 //finding a specific  character using indexof
-System.out.println(" Index of 'o' : " +s1.indexof('o'));
+System.out.println(" Index of 'o' : " +s1.indexOf('o'));
 
 //finding a specific character using lastindexof
-System.out.println(s1.lastindexof('o'));
+System.out.println(s1.lastindexOf('o'));
 
 //extracting a substring from a string
 System.out.println(" Substring from index 6 : " + s1.substring(6));
