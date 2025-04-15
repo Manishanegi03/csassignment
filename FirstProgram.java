@@ -16,10 +16,10 @@ String s2= new String ("Java");
 System.out.println(" Length : " + s1.length());
 
 //converting string to uppercase
-System.out.println(" Uppercase :" + s1.toUppercase());
+System.out.println(" Uppercase :" + s1.toUpperCase());
 
 //converting string to lowercase
-System.out.println(" Lowercase : " + s1.toLowercase());
+System.out.println(" Lowercase : " + s1.toLowerCase());
 
 //concatenation of strings
 System.out.println(" Concatenated String : " +s1.concat(" "+ s2));
@@ -28,7 +28,7 @@ System.out.println(" Concatenated String : " +s1.concat(" "+ s2));
 System.out.println(s1.equals(s2));
 
 //comparing two strings using compareto
-System.out.println(s1.compareto(s2));
+System.out.println(s1.compareTo(s2));
 
 //finding a character at a specific strings
 System.out.println(" Character at index 4 : " +s1.charAt(4));
@@ -37,7 +37,7 @@ System.out.println(" Character at index 4 : " +s1.charAt(4));
 System.out.println(" Index of 'O' : " +s1.indexOf('O'));
 
 //finding a specific character using lastindexof
-System.out.println(s1.lastindexOf('O'));
+System.out.println(s1.lastIndexOf('O'));
 
 //extracting a substring from a string
 System.out.println(" Substring from index 6 : " + s1.substring(6));
