@@ -3,14 +3,14 @@ class operations
 {
 public static void main (String[] args)
 {  
-      //creating strings
+//creating strings
 String s1= "Hello World";
 
 //printing strings
 System.out.println(" Original String : " + s1);
 
 //creating strings using new keyword
-String s2=new String ("Java");
+String s2= new String ("Java");
 
 //length of string
 System.out.println(" Length : " + s1.length());
